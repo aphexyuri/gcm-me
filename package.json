@@ -1,11 +1,11 @@
 {
   "name": "GCM-me",
   "version": "0.0.1",
-  "description": "For testing Googl Cloud Messaging",
+  "description": "For testing Google Cloud Messaging",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: Not specified\" && exit 1"
   },
   "author": "",
   "repository": {

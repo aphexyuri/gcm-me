@@ -23,7 +23,7 @@ function sendGcm() {
 	console.log("Sending to divice with registration id: " + program.regId);
 
 	gcmTest({
-		message: 'Hello Scopely SDK',
+		message: 'Message to used',
 		title: 'Test GCM'
 	}, [program.regId], {
 		apiKey: program.key
