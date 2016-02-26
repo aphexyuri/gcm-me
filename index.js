@@ -27,8 +27,8 @@ function sendGcm() {
 	console.log("Push message body: " + program.message);
 
 	gcmTest({
-		message: '"' + program.message + '"',
-		title: '"' + program.title + '"'
+		message: program.message,
+		title: program.title
 	}, [program.regId], {
 		apiKey: program.key
 	}, function(err, response){
